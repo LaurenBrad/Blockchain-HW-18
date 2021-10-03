@@ -10,7 +10,7 @@ Followed the prompts as seen in below screenshot.
          5. contnue with default option
         6. select chain ID
 
-    ![genesis-network](images/genesis-network.jpeg)
+    ![genesis-network](images/genesis-network.jpg)
 
 
 ## Creating Node 1 & 2 ##
