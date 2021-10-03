@@ -10,7 +10,7 @@ Followed the prompts as seen in below screenshot.
          5. contnue with default option
         6. select chain ID
 
-    ![genesis-network](images/genesis-network.png)
+    ![genesis-network](images/genesis-network.jpeg)
 
 
 ## Creating Node 1 & 2 ##
@@ -28,7 +28,7 @@ Ran nodes 1 & 2 as seen in below screenshot
        node 1 - ./geth init lazard.json --datadir node1
        node 2 - ./geth init lazard.json --datadir node2
 
-    ![creating-nodes](images/creating-nodes.png)
+    ![creating-nodes](images/creating-nodes.jpeg)
 
 ## Mining Blockchain ##
 Opening a new terminal window navigating to 'Blockchain-Tools' folder to launch node 1 to begin minning, and node 2 to expose RPC port to communicate with MyCrypto per below screenshot
@@ -40,8 +40,8 @@ Opening a new terminal window navigating to 'Blockchain-Tools' folder to launch 
         ./geth --datadir node2 --port 30304 --rpc --bootnodes "enode://5d3ee58b9c4799d36785b52702bb663937d7922c80b4b42f7e7c4975ddea1184c402c8376cc128ddcb941b6d86669979e2c28bf5955da20b1754bb9423188e7c@127.0.0.1:30303" --ipcdisable
 Now blockchain on lazard network is running.
 
-    ![Node-1](images/Node-1.png)
-    ![Node-2](images/Node-2.png)
+    ![Node-1](images/Node-1.jpeg)
+    ![Node-2](images/Node-2.jpeg)
     
 
 
@@ -57,8 +57,8 @@ With blockchain running and connecting to MyCrypto app, we can now create a cust
          http://127.0.0.1:8545
     7. save and slect as network by logging in using private key used to create wallet.
 
-    ![custom-node](images/custom-node.png)
-    ![funded](images/funded.png)
+    ![custom-node](images/custom-node.jpeg)
+    ![funded](images/funded.jpeg)
 
 
 
@@ -69,8 +69,8 @@ Now we can make a transaction with funded wallet.
     3. receive green message pop-up to show succesfull transaction.
     4. select "Check TX Status"
 
-    ![transaction](images/transaction.png)
-    ![TX](images/TX.png)
+    ![transaction](images/transaction.jpeg)
+    ![TX](images/TX.jpeg)
 
     
     
